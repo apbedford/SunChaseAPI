@@ -71,3 +71,18 @@ text-align: right;
 #content h2 {
 	margin: 0 0 .5em 0;
 }
+
+/*button for more pics if available*/
+#more {
+padding: 10px;
+margin: 20px;
+color: #CCC;
+font-size: 20px;
+line-height: 22px;
+display: block;
+font-family: "brandon_bold",Arial,Helvetica,sans-serif;
+}
+
+#target img{
+	display:inline-block;
+}
