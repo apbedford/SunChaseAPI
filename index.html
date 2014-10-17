@@ -2,46 +2,44 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Sun Chase</title>
-	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="main.css">
 	<link href='http://fonts.googleapis.com/css?family=Poiret+One|Marck+Script' rel='stylesheet' type='text/css'>
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="app.js"></script>
 	<script src="oauth.min.js"></script>
-	<script type="text/javascript" src="stream.js"></script>
 </head>
+
 <body>
+	<div id="container">
+		<div id="top">
+			<h1>Sun Chase</h1>
+		</div>
+		<div id="leftnav">
+			<p>
+				Never miss a sunset again.</p>
+				<ul id="info">
+					<li>Title:</li>
+					<li class="title"></li>
+					<li>Location:</li>
+					<li class="location"></li>
+					<li>Tags:</li>
+					<li class="tags"></li>
+				</ul>
+			</div>
+			<div id="content">
+				<div id ="target"></div>
+				<div id="showMore">
+					<div class='clearfix '><a id='more' next_url='"+next_url+"' href='#'>[Load More]</a></div>		
+				</div>
+				<p></p>
+			</div>
+			<div id="footer">
+				© Sun Chase 2014
+			</div>
+		</div>
 
-<div id="container">
-<div id="top">
-<h1>Sun Chase</h1>
-</div>
-<div id="leftnav">
-<p>
-Never miss a sunset again.
-<ul id="info">
-	<li>Title:</li>
-	<li class="title"></li>
-	<li>Location:</li>
-	<li class="location"></li>
-	<li>Tags:</li>
-	<li class="tags"></li>
-</ul>
-</p>
-</div>
-<div id="content">
-<div id ="target"></div>
-<div id="showMore">
-		<div class='clearfix '><a id='more' next_url='"+next_url+"' href='#'>[Load More]</a></div>		
-	</div>
-<p></p>
-</div>
-<div id="footer">
-© Sun Chase 2014
-</div>
-</div>
+	</body>
+	</html>
 
-</body>
-</html>
-
-<!---I want to practice using an API by creating a user to experience the sunset anytime the sunset cannot be seen in person by the user.It will be a simple picture viewer called Sun Chase.!-->
-Sun Chase is an API powered project that shows the user pictures of sunsets around the globe so that they can see various sunsets through out the world.--!>
+	<!---I want to practice using an API by creating a user to experience the sunset anytime the sunset cannot be seen in person by the user.It will be a simple picture viewer called Sun Chase.!-->
+	<!--Sun Chase is an API powered project that shows the user pictures of sunsets around the globe so that they can see various sunsets through out the world.--!>

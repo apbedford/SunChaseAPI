@@ -1,0 +1,98 @@
+body {
+	background-color: black;
+}
+
+p {
+	color: orange;
+}
+
+#container
+{
+	width: 90%;
+	margin: 10px auto;
+	background-color: black;
+	color: #fff;
+	border: 1px solid gray;
+	line-height: 130%;
+}
+
+h1 {
+	font-family: 'Marck Script', cursive;
+	color:#fff;
+	font-size: 40px;
+}
+
+#top
+{
+	padding: .5em;
+	background-color: #ddd;
+	border-bottom: 1px solid gray;
+}
+
+#top h1
+{
+	padding: 0;
+	margin: 0;
+}
+
+#leftnav
+{
+	float: left;
+	width: 160px;
+	margin: 0;
+	padding: 1em;
+}
+
+#content
+{
+	margin-left: 200px;
+	border-left: 1px solid gray;
+	padding: 1em;
+	max-width: 36em;
+}
+
+#info li {
+	list-style-type: none;
+}
+
+#footer
+{
+	clear: both;
+	margin: 0;
+	padding: .5em;
+	color: #333;
+	background-color: #ddd;
+	border-top: 1px solid gray;
+	text-align: right;
+}
+
+#leftnav p {
+	margin: 0 0 1em 0;
+}
+
+#content h2 {
+	margin: 0 0 .5em 0;
+}
+
+/*button for more pics if available*/
+#more {
+	padding: 10px;
+	margin: 20px;
+	color: #CCC;
+	font-size: 20px;
+	line-height: 22px;
+	display: block;
+	font-family: "brandon_bold",Arial,Helvetica,sans-serif;
+}
+#target {
+	height:auto;
+	width: 500px;
+}
+
+
+#target img {
+	width: 30%;
+	height: auto;
+	display: inline;
+	margin: 0 10px;
+}
